@@ -42,4 +42,4 @@ Comando para correr tests
 
 ## Demo
 
-https://tarjeda-de-bienvenida.netlify.app/
+https://tarjeta-de-bienvenida.netlify.app/
