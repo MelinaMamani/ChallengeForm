@@ -16,8 +16,6 @@ Abajo de la tarjeta de bienvenida habra un 3er componente que contenga 1 boton q
 
 La solución debe ser subida a este mismo repositorio se valorará test unitarios. 
 
-**Exitos!!**
-
 
 ## Instalación
 
@@ -41,12 +39,4 @@ Comando para correr tests
 
 - **Client:** React, Custom Hook, Context, Sass
 - **Tests:** Jest, React-testing-library
-
-## Feedback
-
-Primero que nada gracias por la oportunidad de hacer este challenge, aprendí sobre tests unitarios y aunque hice pruebas sencillas, todas pasaron. Siento muchas ganas de seguir aprendiendo sobre tests automatizados!
-
-Mi app tiene un diseño simple y es responsive. Las validaciones las hice yo misma, Si tuviera que trabajar en un proyecto usaría formik, yup y algún dropzone. Obviamente también haría las respectivas pruebas a mis hooks y context. 🙌🏽
-
-Fue un gusto realizar este challenge y espero quedar seleccionada! Saludos!! 🥰
 
