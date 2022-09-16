@@ -1,0 +1,9 @@
+.container {
+    @include flex-direction-wrap(row, nowrap);
+    @include justify-content(center);
+    @include padding(3rem, 0);
+    @include media($mobile){
+        @include flex-direction-wrap(column, nowrap); 
+        @include padding(2rem, 0);
+    }
+}

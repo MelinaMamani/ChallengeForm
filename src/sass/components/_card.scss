@@ -1,0 +1,62 @@
+.cardContainer {
+    @include flex-direction-wrap(row, nowrap);
+    @include justify-content(center);
+    @include align-items(center);
+    @include padding(1.5rem, 1.5rem);
+    @include media($mobile450) {
+        @include padding(0, 0);
+    }
+
+    .cardAndButton {
+        @include flex-direction-wrap(column, nowrap);
+        @include align-items(center);
+
+        .card {
+            @include flex-direction-wrap(column, wrap);
+            @include align-items(center);
+            @include bg-color($lila);
+            @include padding(2rem, 1.5rem);
+            @include width(50vh);
+            @include media($mobile450) {
+                @include width(100%);
+            }
+    
+            .imgUser {
+                @include border(3px, $violet, solid, 100%);
+                @include width(200px);
+                @include height(200px);
+                object-fit: cover;
+            }
+    
+            .name {
+                @include padding(0.5rem, 0);
+            }
+        }
+    }
+
+    .loaderContainer {
+        @include padding(1rem, 1rem);
+        @include border(3px, $violet, solid, 5px);
+        @include flex-direction-wrap(column, wrap);
+        @include align-items(center);
+    
+        p {
+            @include margin-bottom(1rem);
+            @include color($violet);
+            font-weight: 600;
+        }
+
+        .loader {
+            @include width(40px);
+            animation: rotation 5s infinite linear;
+            @keyframes rotation {
+                from {
+                  transform: rotate(0deg);
+                }
+                to {
+                  transform: rotate(359deg);
+                }
+            }
+        }
+    }
+}

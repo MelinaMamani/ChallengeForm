@@ -1,0 +1,13 @@
+@mixin flex-direction-wrap ($direction, $flex-wrap){
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $flex-wrap;
+}
+
+@mixin justify-content ($value) {
+    justify-content: $value;
+}
+
+@mixin align-items ($value){
+    align-items: $value;
+}

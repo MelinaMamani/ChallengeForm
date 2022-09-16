@@ -1,0 +1,90 @@
+.formAndTitle {
+    @include flex-direction-wrap(column, nowrap);
+    @include align-items(center);
+
+    .formContainer {
+        @include flex-direction-wrap(row, nowrap);
+        @include justify-content(center);
+        @include align-items(center);
+        @include padding(1rem, 1rem);
+    
+        .form {
+            @include flex-direction-wrap(column, wrap);
+            @include align-items(center);
+            @include bg-color($pink);
+            @include width(40vh);
+            @include padding(1rem, 1rem);
+            @include border(1px, $dark, solid, 5px);
+    
+            h1 {
+                @include text-center;
+            }
+    
+            input {
+                @include padding(0.5rem, 0.5rem);
+                @include font-size(0.9rem);
+            }
+    
+            .inputText {
+                @include width(100%);
+                @include margin-bottom(0.5rem);
+                @include border(1px, $dark, solid, 5px);
+            }
+
+            .error {
+                @include color($light);
+                @include margin-bottom(0.5rem);
+                @include font-size(0.8rem);
+                align-self: flex-start;
+            }
+    
+            .dropzone {
+                @include bg-color($light);
+                @include padding(0.8rem, 0.5rem);
+                @include margin-bottom(0.5rem);
+                @include text-center;
+                @include color($violet);
+                @include border(1px, $violet, dashed, 5px);
+                @include bg-color($light-bg);
+                @include width(100%);
+                @include cursorPointer;
+                position: relative;
+
+                .uploadImage {
+                    margin-left: 0.5rem;
+                    @include width(20px);
+                }
+    
+                .inputFile {
+                    @include width(100%);
+                    @include cursorPointer;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    opacity: 0;
+                    height: 100%;
+                }
+            }
+    
+            .paragraph {
+                @include color($dark);
+            }
+    
+            .imgPreview {
+                @include width(150px);
+                @include padding(1rem, 1rem);
+            }
+    
+            .submitBtn {
+                @include padding(0.5rem, 0);
+                @include width(90px);
+                @include bg-color($violet);
+                @include color($light);
+                @include borderNone;
+                @include border(1px, $dark, solid, 20px);
+                @include cursorPointer;
+            }
+        }
+    }
+}
+

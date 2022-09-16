@@ -1,0 +1,50 @@
+@mixin width($value){
+    width: $value;
+}
+
+@mixin height($value){
+    height: $value;
+}
+
+@mixin padding($y: 0, $x: 0) {
+    padding: $y $x;
+}
+
+@mixin border($px: 0, $color, $line, $radius: 0) {
+    border: $px $color $line;
+    border-radius: $radius;
+}
+
+@mixin font-size($value) {
+    font-size: $value;
+}
+
+@mixin margin-top($value) {
+    margin-top: $value;
+}
+
+@mixin margin-bottom($value) {
+    margin-bottom: $value;
+}
+
+@mixin color($value : black) {
+    color: $value;
+}
+
+@mixin borderNone() {
+    border: none;
+}
+
+@mixin text-center(){
+    text-align: center;
+}
+
+@mixin cursorPointer(){
+    cursor: pointer;
+}
+
+@mixin media($value: 0){
+    @media screen and (max-width : $value){
+        @content;
+    }
+}

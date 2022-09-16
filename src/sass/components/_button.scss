@@ -1,0 +1,9 @@
+button {
+    @include borderNone;
+    @include cursorPointer;
+    @include bg-color($pink);
+    @include padding(0.5rem, 1rem);
+    @include margin-top(1rem);
+    @include color($light);
+    @include border(1px, $blue, solid, 20px);
+}

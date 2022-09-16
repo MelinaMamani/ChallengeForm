@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# **Tarjeta de bienvenida**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Objetivo**
 
-## Available Scripts
+Diseñar una aplicacion que permita la creación de una tarjeta de bienvenida, que contenga foto, nombre y campos de interés de una persona. 
 
-In the project directory, you can run:
+### **Herramientas y tecnologias a utilizar:**
 
-### `npm start`
+- React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Debera crear un componente de formulario web donde se puedan cargar los datos de la persona. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Esto se vera reflejado instantaneamente en un segundo componente que es la tarjeta de bienvenida. 
 
-### `npm test`
+Abajo de la tarjeta de bienvenida habra un 3er componente que contenga 1 boton que descargará un png con la tarjeta de bienvenida.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+La solución debe ser subida a este mismo repositorio se valorará test unitarios. 
 
-### `npm run build`
+**Exitos!!**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalación
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Instala dependencias y corre mi proyecto
 
-### `npm run eject`
+```bash
+  npm install my-project
+  cd my-project
+  npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tests unitarios
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Comando para correr tests
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  npm run test
+```    
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tech Stack
 
-## Learn More
+- **Client:** React, Custom Hook, Context, Sass
+- **Tests:** Jest, React-testing-library
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Feedback
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Primero que nada gracias por la oportunidad de hacer este challenge, aprendí sobre tests unitarios y aunque hice pruebas sencillas, todas pasaron. Siento muchas ganas de seguir aprendiendo sobre tests automatizados!
 
-### Code Splitting
+Mi app tiene un diseño simple y es responsive. Las validaciones las hice yo misma, Si tuviera que trabajar en un proyecto usaría formik, yup y algún dropzone. Obviamente también haría las respectivas pruebas a mis hooks y context. 🙌🏽
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Fue un gusto realizar este challenge y espero quedar seleccionada! Saludos!! 🥰
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
